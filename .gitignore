@@ -1,0 +1,24 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.so
+
+# Terraform files
+.terraform/
+*.tfstate
+*.tfstate.*
+terraform.tfvars
+
+# AWS credentials & sensitive config
+aws_credentials/
+.aws/
+*.pem
+*.key
+*.zip
+
+# VSCode or IDE
+.vscode/
+.idea/
+
+# Mac system files
+.DS_Store.aws_credentials
